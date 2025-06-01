@@ -647,7 +647,7 @@ The following arguments are supported:
 
 | Name      | Type          | Description                                    | Default | Required |
 | --------- | ------------- | ---------------------------------------------- | ------- | -------- |
-| `mapping` | `map(string)` | Key-value pairs of `logmft` fields to extract. |         | yes      |
+| `mapping` | `map(string)` | Key-value pairs of `logfmt` fields to extract. |         | yes      |
 | `source`  | `string`      | Source of the data to parse as `logfmt`.       | `""`    | no       |
 
 The `source` field defines the source of data to parse as `logfmt`.
